@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1{
+	font : 24px 'Bebas Neue';
+}
+h2{
+	font : 20px 'Bebas Neue';
+}
+h3{
+	font : 16px 'Brandon Grotesque';
+}
+h4{
+	font : 12px 'Brandon Grotesque';
+}
+header, nav, article, footer, hgroup, section, aside {
+display: block;
+}
+
+body{
+	width: 100%;
+	overflow-x: hidden;
+}
+
+li{
+	margin-left: 20px;
+	padding-left: 0px;
+}
+
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+header{
+	height: 80px;
+	width: 100%; 
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	z-index: 99;
+}
+
+
+#hRapper{
+	width: 90%;
+	margin: 0px auto;
+}
+
+#logo{
+	width: 40%;
+	float: left;
+	color: #0054a6;
+}
+#logo img{
+	width: 75px;
+	height: 75px;
+}
+
+nav{	
+	float: right;
+	margin: 20px auto;	
+}
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	font: bold 12px sans-serif;
+	color: #7ba5de;
+	transition: transform .2s;
+}
+nav ul li:hover{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+nav ul li a{
+	text-decoration: none;
+	color: #7ba5de;
+}
+nav ul li a:hover{
+	text-decoration: none;
+	color: #bfc8cc;
+}
+
+.rapper {
+	height: 100vh;
+	/*width: 100vw;*/
+	/*margin-left: -20px;*/
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+.subrapper {
+	height: 70vh;
+	/*width: 100vw;*/
+	/*margin-left: -20px;*/
+	background-color: #02131c;
+	text-align: center;
+
+}
+
+
+.rapperOne {
+	background-image: url(bluer.jpg); 
+}
+
+.rapperTwo {
+	background-image: url(bck1.jpg);
+}
+
+.rapperThree {
+	background-image: url(bck11.jpg); 
+}
+
+.Onecontent{
+	top: 0%;
+	bottom: 0%;
+	height: 100vh;
+	text-align: center;
+	align-items: center;  
+	justify-content: center; 
+}
+
+.Onecontent h1{
+	font-size: 64px;
+	color: rgba(255, 255, 255, 0.8); 
+	letter-spacing: 3px;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 40vh;
+}
+
+.Onecontent h3{
+	font-size: 32px;
+	color: #131E3A;
+	font-weight: bold;
+}
+
+
+#subOneContent{
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+#subOneContent h1{
+	font: bold 24px sans-serif;
+	color: #7ba5de;
+	font-weight: bold;
+	padding: 50px 0px;
+}
+
+
+#left img{
+	width: 250px;
+	height: 300px;
+}
+
+
+#subOneContent p{
+	/*font: lighter 17px sans-serif;*/
+	color: #bfc8cc;
+	text-align: justify;
+}
+#subOneContent a{
+	color: #7ba5de;
+	text-decoration: none;
+}
+#subOneContent ul li{
+	text-align: left;
+	color: #7ba5de;
+}
+
+#rapperSecond{
+	text-align: center;
+}
+
