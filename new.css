@@ -101,10 +101,13 @@ body{
 }
 
 #proj div{
+	padding: 0px;
+	margin: 0px;
 	height: 400px;
 	border: 1px solid #7ba5de;
 	border-radius: 5px;
 	transition: transform .2s;
+
 }
 
 #proj div:hover{
@@ -113,6 +116,8 @@ body{
 }
 
 #proj div img{
+	width: 100%;
+	height: 50%;
 	border-radius: 5px 5px 0px 0px;
 }
 
@@ -131,6 +136,7 @@ body{
 	border: 1px solid #7ba5de;
 	margin: 5px;	
 	border-radius: 5px;
+	font: normal 12px sans-serif;
 }
 
 #side p{
