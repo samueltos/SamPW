@@ -103,14 +103,24 @@ body{
 #proj div{
 	height: 400px;
 	border: 1px solid #7ba5de;
+	border-radius: 5px;
 	transition: transform .2s;
 }
 
 #proj div:hover{
-	height: 400px;
-	border: 1px solid #7ba5de;
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
+}
+
+#proj div img{
+	border-radius: 5px 5px 0px 0px;
+}
+
+#proj div ul li{
+	display: inline;
+	padding: 5px;
+	text-align: justify;
+	list-style: none;
 }
 
 #side p{
