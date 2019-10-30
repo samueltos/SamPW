@@ -107,7 +107,6 @@ body{
 	border: 1px solid #7ba5de;
 	border-radius: 5px;
 	transition: transform .2s;
-
 }
 
 #proj div:hover{
@@ -119,13 +118,28 @@ body{
 	width: 100%;
 	height: 50%;
 	border-radius: 5px 5px 0px 0px;
+	margin-bottom: 10px;
+}
+
+#proj div h5{
+	padding: 10px;
+	font: bold 18px sans-serif;
+	text-align: left;
+}
+
+#proj div h6{
+	margin: 10px;
+	/*padding: 5px;*/
+	font: normal 16px sans-serif;
+	color: #888e92;
+	text-align: left;
 }
 
 #proj div ul{
 	margin-top: 10px;
 	padding-left: 20px;
 	padding-right: 20px;
-
+	bottom: 0%;
 }
 
 #proj div ul li{
