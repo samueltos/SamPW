@@ -116,11 +116,21 @@ body{
 	border-radius: 5px 5px 0px 0px;
 }
 
+#proj div ul{
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
 #proj div ul li{
-	display: inline;
-	padding: 5px;
+	display: inline;	
+	padding: 5px 10px;
 	text-align: justify;
 	list-style: none;
+	border: 1px solid #7ba5de;
+	margin: 5px;	
+	border-radius: 5px;
 }
 
 #side p{
