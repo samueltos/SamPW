@@ -99,13 +99,13 @@ body{
 	padding-bottom: 40px;	
 	margin-bottom: 0px;
 }
-
+/*
 #proj div{
 	padding: 0px;
 	margin: 0px;
 	height: 400px;
 	background: #05202e;
-	/*border: 1px solid #7ba5de;*/
+	border: 1px solid #7ba5de;
 	border-radius: 5px;
 	transition: transform .2s;
 }
@@ -129,9 +129,9 @@ body{
 }
 
 #proj div p{
-	/*margin: 10px 0px;*/
+	margin: 10px 0px;
 	padding: 0px 10px;
-	/*font: normal 16px sans-serif;*/
+	font: normal 16px sans-serif;
 	color: #888e92;
 	text-align: left;
 }
@@ -152,7 +152,7 @@ body{
 	margin: 5px;	
 	border-radius: 5px;
 	font: normal 12px sans-serif;
-}
+}*/
 
 .card-deck .card{
 	background: #05202e;
@@ -163,6 +163,27 @@ body{
 .card-deck .card:hover{
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
+}
+
+.card-deck .card .ma{
+	position: relative;
+}
+
+.card-deck .card .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 1;
+	transition: .5s ease;
+	background-color: rgba(10, 59, 81, 0.7);
+}
+
+.ma:hover .overlay {
+  opacity: 0;
 }
 
 .card-footer ul li{
