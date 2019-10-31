@@ -154,6 +154,20 @@ body{
 	font: normal 12px sans-serif;
 }
 
+.card{
+	background: #05202e;
+}
+.card-footer ul li{
+	display: inline;	
+	padding: 5px 10px;
+	text-align: justify;
+	list-style: none;
+	/*border: 1px solid #7ba5de;*/
+	margin: 5px;	
+	border-radius: 5px;
+	/*font: normal 12px sans-serif;*/
+}
+
 #side p{
 	color: rgba(255, 255, 255, 0.8); 
 	writing-mode: vertical-lr;	
