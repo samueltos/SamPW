@@ -1,3 +1,3 @@
-$('.collapse').on('hidden.bs.collapse', function () {
-    $('.collapse').eq(1).collapse('show');
-})
+// $('.collapse').on('hidden.bs.collapse', function () {
+//     $('.collapse').eq(1).collapse('show');
+// })
