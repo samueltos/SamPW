@@ -90,6 +90,7 @@ body{
 }
 .subrapper .container .row ul{
 	color: #7ba5de;
+	list-style-type: square;
 }
 
 .subrapper .footer{
