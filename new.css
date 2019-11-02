@@ -28,6 +28,12 @@ body{
 	padding-left: 0px;
 	padding-right: 0px;
 }
+
+.nav-item button{
+	border-color: #7ba5de; 
+	background-color: rgba(0, 0, 0, 0.8); 
+	border-radius: 5px;"
+}
  
 .btn{
 	background-color: #02131c;
