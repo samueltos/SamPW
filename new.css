@@ -213,11 +213,16 @@ body{
   opacity: 0;
 }
 
+.card-footer ul {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .card-footer ul li{
 	display: inline;
 	color: #7ba5de;	
-	padding: 5px 10px;
-	text-align: justify;
+	padding: 10px;
+	text-align: left;
 	list-style: none;
 	margin: 5px;	
 	border-radius: 5px;
@@ -351,3 +356,6 @@ body{
 		fill: #131E3A;
 	}
 }
+
+
+
