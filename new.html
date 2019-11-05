@@ -276,23 +276,23 @@
 			<div class="row">
 				<div class="col-12 my-4"><h5>Need anything built, design, want to work together or simply want to have a chat?</h5></div>
 			</div>
-			<form>
+			<form class="validate-form">
 			  
 			  <div class="form-group row">
-			    <div class="col-sm-8 mx-auto mt-2">
-			      <input type="text" class="form-control" id="colFormLabel" placeholder="Name">
+			    <div class="col-sm-8 mx-auto mt-2 validate-input" data-validate="Name is required">
+			      <input type="text" class="form-control"  id="validationDefault01" name="name" placeholder="Name" required>
 			    </div>
 			  </div>
 
 			  <div class="form-group row">
-			    <div class="col-sm-8 mx-auto mt-2">
-			      <input type="email" class="form-control" id="colFormLabel" placeholder="E-mail address">
+			    <div class="col-sm-8 mx-auto mt-2 validate-input" data-validate = "Valid email is required: example@abc.xyz">
+			      <input type="email" class="form-control" id="colFormLabel" name="email" placeholder="E-mail address" required>
 			    </div>
 			  </div>
 
 			  <div class="form-group row">
-			    <div class="col-sm-8 mx-auto my-2">
-			      <textarea class="form-control" id="Textarea1" rows="3" placeholder="Your message"></textarea>
+			    <div class="col-sm-8 mx-auto my-2 validate-input" data-validate = "Message is required">
+			      <textarea class="form-control" id="validationDefault03" name="message" rows="3" placeholder="Your message" required></textarea>
 			    </div>
 			  </div>
 			  <button type="submit" class="btn">Submit</button>

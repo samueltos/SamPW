@@ -56,8 +56,8 @@ body{
 }
 
 .rapperOne {
-	/*background-image: url(bluer.jpg); */
-	background-color: #105981;
+	background-image: url(bluer.jpg); 
+	/*background-color: #105981;*/
 	text-align: center;
 	padding: 20% 0;
 }
