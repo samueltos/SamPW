@@ -20,10 +20,10 @@ $mail->Password = PASS;                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
                                                  // TCP port to connect to
 
-$mail->setFrom($_POST['email'], 'New Message');
+$mail->setFrom($_POST['email'], $_POST['name']);
 $mail->addAddress(EMAIL);    				 // Add a recipient
 
-$mail->addReplyTo(EMAIL);
+$mail->addReplyTo($_POST['email']);
 
 
 $mail->isHTML(true);                                  // Set email format to HTML
