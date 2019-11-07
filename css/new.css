@@ -1,0 +1,116 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+}
+ 
+.btn{
+	background-color: #02131c;
+	color: rgba(255, 255, 255, 0.8); 
+} 
+
+.btn:hover{
+	color: white;
+}
+
+.rapper {
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-attachment: fixed;
+}
+
+.subrapper {
+	height: auto;
+	background-color: #02131c;
+	text-align: center;
+}
+
+.rapperOne {
+	/*background-image: url(bluer.jpg); */
+	background-color: #105981;
+	text-align: center;
+	padding: 20% 0;
+}
+
+.rapperTwo {
+	background-image: url(./image/bck1.jpg);
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.rapperThree {
+	background-image: url(./image/bck11.jpg); 
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+} 
+
+.rapperOne h1{
+	font-size: 64px;
+	color: rgba(255, 255, 255, 0.8); 
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+.rapperOne h3{
+	font-size: 32px;
+	color: #131E3A;
+	font-weight: bold;
+}
+
+.subrapper .container{
+	color: rgba(255, 255, 255, 0.8); 
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.subrapper .container .row img{
+	width: 250px;
+	height: 300px;
+}
+
+.subrapper .container .row a{
+	color: #7ba5de;
+}
+
+.subrapper .container .row ul{
+	color: #7ba5de;
+	list-style-type: square;
+}
+
+.subrapper .footer{
+	color: #7ba5de;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;	
+	margin-bottom: 0px;
+}
+
+#side p{
+	color: rgba(255, 255, 255, 0.8); 
+	writing-mode: vertical-lr;	
+	letter-spacing: 2px;
+	/*text-orientation: mixed;*/
+	/*text-orientation: upright;*/
+}
+
+#side a{
+	color: rgba(255, 255, 255, 0.8); 
+	writing-mode: vertical-lr;	
+	padding: 10px;
+}
+
+#side a:hover{
+	color: #7ba5de;
+}
+
+@media (max-width: 767px) {
+    .side {
+        display:none;
+    }
+}
+
+
+
