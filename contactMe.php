@@ -10,7 +10,7 @@ require 'credential.php';
 
 $mail = new PHPMailer;
 
-$mail->SMTPDebug = 4;                               // Enable verbose debug output
+$mail->SMTPDebug = 0;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'tls://smtp.gmail.com:587';  					// Specify main and backup SMTP servers
